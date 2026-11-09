@@ -1,0 +1,8 @@
+
+CREATE TABLE categorias
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    descricao VARCHAR(100) NOT NULL,
+    tipo VARCHAR(20) NOT NULL,
+    ativa BOOLEAN NOT NULL
+);
