@@ -1,0 +1,9 @@
+CREATE TABLE usuarios
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    senha_hash VARCHAR(255) NOT NULL,
+    perfil VARCHAR(30) NOT NULL,
+    ativo BOOLEAN NOT NULL
+);
